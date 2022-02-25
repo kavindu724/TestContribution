@@ -14,7 +14,7 @@ const makeCommit = (date) => {
 };
 
 // Example of generating dates for the last 30 days
-const days = 1000; // Change this number to go further back
+const days = 0; // Change this number to go further back
 for (let i = 0; i < days; i++) {
   const date = new Date();
   date.setDate(date.getDate() - i); // Go back by i days
